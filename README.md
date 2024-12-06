@@ -2,7 +2,9 @@
 
 프론트 개발용 템플릿
 
+- Vite v6.0.1
 - React.js v18.3.1
+- TypeScript v.5.6.2
 - Tailwind CSS v3.4.16
 
 ## Getting Started
