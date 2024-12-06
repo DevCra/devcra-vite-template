@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  display: swap;
+  font-family: "--pretendard-std";
+  src: url("/fonts/PretendardStd/PretendardStd-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: bold;
+}
+@font-face {
+  display: swap;
+  font-family: "--pretendard-std";
+  src: url("/fonts/PretendardStd/PretendardStd-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: bold;
+}
+@font-face {
+  display: swap;
+  font-family: "--pretendard-std";
+  src: url("/fonts/PretendardStd/PretendardStd-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: bold;
+}
+@font-face {
+  display: swap;
+  font-family: "--pretendard-std";
+  src: url("/fonts/PretendardStd/PretendardStd-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  display: swap;
+  font-family: "--pretendard-std";
+  src: url("/fonts/PretendardStd/PretendardStd-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  display: swap;
+  font-family: "--pretendard-std";
+  src: url("/fonts/PretendardStd/PretendardStd-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  display: swap;
+  font-family: "--pretendard-std";
+  src: url("/fonts/PretendardStd/PretendardStd-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  display: swap;
+  font-family: "--pretendard-std";
+  src: url("/fonts/PretendardStd/PretendardStd-ExtraLight.woff2")
+    format("woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  display: swap;
+  font-family: "--pretendard-std";
+  src: url("/fonts/PretendardStd/PretendardStd-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: "--pretendard-std", "-apple-system", "BlinkMacSystemFont",
+    "Malgun Gothic", "맑은 고딕", "helvetica", "sans-serif";
+}
