@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div className="w-full min-h-screen flex justify-center items-center text-black text-7xl font-bold">
+    <div className="flex min-h-screen w-full items-center justify-center text-7xl font-bold text-black">
       DevCra Vite Template
     </div>
   );
