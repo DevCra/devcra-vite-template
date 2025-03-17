@@ -6,6 +6,7 @@
 - React 19
 - TypeScript 5
 - React Router 7
+- Tailwind 4
 - React Query 5
 - framer-motion
 - react-error-boundary
