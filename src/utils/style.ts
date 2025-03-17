@@ -19,6 +19,7 @@ export const getRGBFromHex = (hex: string, alpha: number): string => {
 };
 
 export const getBgImageStyle = (imgUrl: string): CSSProperties => ({
+  position: "relative",
   width: "100%",
   height: "100%",
   backgroundImage: `${imgUrl}`,

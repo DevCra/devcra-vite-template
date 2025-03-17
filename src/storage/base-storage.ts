@@ -16,7 +16,11 @@ export class BaseStorage<T> {
     this.storage.setItem(this.key, JSON.stringify(value));
   }
 
-  // remove
+  removeItem(key: string) {
+    this.storage.removeItem(key);
+  }
 
-  // clear
+  clear() {
+    this.storage.clear();
+  }
 }
