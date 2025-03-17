@@ -1,9 +1,9 @@
-function App() {
-  return (
-    <div className="flex min-h-screen w-full items-center justify-center text-7xl font-bold text-black">
-      DevCra Vite Template
-    </div>
-  );
-}
+import { routes } from "@/routes";
+import { useRoutes } from "react-router";
+
+const App = () => {
+  const element = useRoutes(routes);
+  return element;
+};
 
 export default App;
