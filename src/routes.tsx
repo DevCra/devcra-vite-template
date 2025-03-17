@@ -2,7 +2,7 @@ import { type FC, Suspense, lazy } from "react";
 import { Navigate } from "react-router";
 
 import LoadingIndicator from "./components/Indicator/LoadingIndicator";
-import Layout from "./components/Layout";
+import Layout from "./components/Layout/RootLayout";
 import { ROUTE_PATH_MAP } from "./constants/routes";
 
 const Loader = (Component: FC) => (props: any) => (

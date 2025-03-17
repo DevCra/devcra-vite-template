@@ -1,7 +1,7 @@
 import { type PropsWithChildren } from "react";
 import { Outlet } from "react-router";
 
-const Layout = ({ children }: PropsWithChildren) => {
+const RootLayout = ({ children }: PropsWithChildren) => {
   return (
     <div className="flex h-full w-full items-center justify-center">
       {children}
@@ -10,4 +10,4 @@ const Layout = ({ children }: PropsWithChildren) => {
   );
 };
 
-export default Layout;
+export default RootLayout;
